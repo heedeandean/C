@@ -1,0 +1,5 @@
+순차 파일                        vs 랜덤 파일
+1. 파일의 처음/끝 이용           vs 임의 위치
+2. 레코드 길이 일정X             vs O
+3. 레코드 구분 필요O(CR/LF 이용) vs X
+4. 가변 길이(variable length)    vs 고정 길이(fixed length): 기억공간 낭비(-)/레코드 검색 빠름(+)
